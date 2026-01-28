@@ -1,0 +1,25 @@
+.skills-logo{
+    margin-top: 50px;
+}
+
+.skills-logo img {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  padding: 12px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 101, 248, 0.7)
+}
+
+.skills-logo img:hover
+{
+  transform: scale(1.12);
+  background: #0065F8;
+  border-color: #0065F8;
+}
+.skills-logo img:focus{
+    transform: scale(1.12);
+  background: #0065F8;
+  border-color: #0065F8;
+}
