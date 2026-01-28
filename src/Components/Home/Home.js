@@ -27,7 +27,8 @@ const Home = () => {
       <div className='logo-btn flex'>
         <a href='https://www.linkedin.com/in/mohan-raj-745563391?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BuTrGqqV1QpiPCgVX3oYx%2Bg%3D%3D'><CiLinkedin /></a>
         <a href='https://github.com/Mohan-coder-143'><FaGithub /></a>
-        <a href='https://mail.google.com/mail/?view=cm&to=mohanraj28110@gmail.com&su=Job%20Opportunity&body=Hello%20Mohan' target='_blank'>
+        <a href='https://mail.google.com/mail/?view=cm&to=mohanraj28110@gmail.com&su=Job%20Opportunity&body=Hello%20Mohan'
+        target='_blank' rel='noreferrer' >
         
         <MdMailOutline /></a>
       </div>
