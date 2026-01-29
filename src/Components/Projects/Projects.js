@@ -36,7 +36,7 @@ const Projects = () => {
           <h1 className='text-white text-2xl md:text-2xl font-bold'>Weather App</h1>
           <p className='text-gray-300 text-sm md:text-lg py-5 px-4 text-center'>Developed a weather application using JavaScript and a public Weather API to fetch real-time data. 
             Users can search by city to view temperature, weather conditions.</p>
-            <a href='#' className='text-white text-4xl md:text-4xl'><LuExternalLink /></a>
+            <a href='#weather' className='text-white text-4xl md:text-4xl'><LuExternalLink /></a>
         </div>
       </div>
 
