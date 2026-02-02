@@ -26,14 +26,15 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    <div><Navbar/></div>
+    
     <section id="home" className='min-h-screen scroll-mt-28'>
       <div data-aos='fade-left' >
         <Home />
       </div>        
       </section>
 
-      <section id="about" className='min-h-screen scroll-mt-28' >
+      <section id="about" className='flex flex-col items-center w-full min-h-screen px-4 md:px-20 scroll-mt-28' >
         <div data-aos='fade-right' data-aos-delay="200">
         <About />  
         </div>

@@ -11,12 +11,14 @@ const Home = () => {
     <section className='min-h-screen flex flex-col md:flex-row px-12 md:px-12'>
 
        {/*profile img*/}
-      <div className='profile-img w-full md:w-1/2 flex justify-center order-1 md:order-2'>
-        <img src={profile} alt='profile pht' className='w-48 sm:w-56 md:w-72 rounded-2xl shadow-lg float-animation'></img>
+      <div className='profile-img w-full md:w-1/2 flex justify-center order-1 md:order-2 mb-6'>
+        <img src={profile} alt='profile pht' className='max-w-[220px] sm:max-w-[220px] md:max-w-[380px]
+        aspect-square object-cover rounded-2xl shadow-lg float-animation'></img>
       </div>
       
       {/*text content*/}
-       <div className='head-left w-full m-12 flex flex-col font-manrope md:text-left w-full md:w-1/2 order-2 md:order-1'>
+       <div className='head-left px-4 md:px-0 mt-6 md:mt-10 flex flex-col items-center
+        font-manrope text-center md:text-left w-full md:w-1/2 order-2 md:order-1'>
       <span className='text-3xl md:text-4xl text-white'>👋 Hello, I am</span><br></br>
       <span className='text-5xl md:text-6xl text-white'>Mohan Raj S</span><br></br>
       <span className='text-5xl md:text-6xl text-white'>I'm a <span className='heead'>Frontend <br></br>Developer</span></span>
