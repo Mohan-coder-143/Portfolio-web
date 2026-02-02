@@ -8,11 +8,11 @@ const Services = () => {
       <h1 className='text-3xl md:text-5xl text-center text-white mb-12'>My <span>Services</span></h1>
 
       {/* Services Cards Container */}
-      <div className='flex flex-col md:flex-row justify-between gap-6 md:gap-6 flex-nowrap'>
+      <div className='flex flex-wrap justify-center gap-10'>
 
         {/* Card 1 */}
-        <div className='bg-[#0C2C55] p-6 rounded-2xl flex flex-col items-center text-center 
-                        w-full md:w-[32%] transition-transform duration-300 hover:scale-105 hover:outline-2 hover:outline hover:outline-[#0065F8]'>
+        <div className='bg-[#0C2C55] p-8 rounded-2xl flex flex-col items-center text-center 
+                        w-full md:w-[45%] lg:w-[30%] transition-transform duration-300 hover:scale-105 hover:outline-2 hover:outline hover:outline-[#0065F8]'>
           <p className='text-5xl md:text-6xl mb-3 text-[#0065F8]'><FaCode /></p>
           <h3 className='text-2xl md:text-3xl text-white mb-3'>Web Development</h3>
           <p className='text-white text-lg mt-2'>

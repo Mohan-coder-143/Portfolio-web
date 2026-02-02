@@ -11,9 +11,9 @@ const Projects = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
         {/* Project 1 */}
-        <div className='relative group rounded-xl overflow-hidden shadow-lg cursor-pointer'>
-          <img src={cal} alt="Calculator" className='w-full h-64 md:h-80 object-cover rounded-xl' />
-          <div className='absolute inset-0 bg-black/70 flex flex-col justify-center items-center text-center px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500'>
+        <div className='relative group rounded-xl overflow-hidden shadow-lg cursor-pointer border border-gray-800'>
+          <img src={cal} alt="Calculator" className='w-full h-64 md:h-80 object-cover rounded-xl transition-transform duration-500 group-hover:scale-110' />
+          <div className='absolute inset-0 bg-black/80 flex flex-col justify-center items-center text-center px-4 opacity-0 md:opacity-0 group-hover:opacity-100 transition-opacity duration-500'>
             <h2 className='text-white text-2xl md:text-3xl font-bold'>Calculator</h2>
             <p className='text-gray-300 mt-2'>Responsive calculator using HTML, CSS, and JS</p>
             <a href='https://thunderous-stardust-59defb.netlify.app/' className='text-white text-3xl mt-2'><LuExternalLink /></a>
@@ -21,8 +21,8 @@ const Projects = () => {
         </div>
 
         {/* Project 2 */}
-        <div className='relative group rounded-xl overflow-hidden shadow-lg cursor-pointer'>
-          <img src={weather} alt="Weather App" className='w-full h-64 md:h-80 object-cover rounded-xl' />
+        <div className='relative group rounded-xl overflow-hidden shadow-lg cursor-pointer border border-gray-800'>
+          <img src={weather} alt="Weather App" className='w-full h-64 md:h-80 object-cover rounded-xl transition-transform duration-500 group-hover:scale-110' />
           <div className='absolute inset-0 bg-black/70 flex flex-col justify-center items-center text-center px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500'>
             <h2 className='text-white text-2xl md:text-3xl font-bold'>Weather App</h2>
             <p className='text-gray-300 mt-2'>Weather app fetching real-time data from public API</p>

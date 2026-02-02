@@ -52,16 +52,17 @@ function App() {
         </div>
       </section>
 
-    
-      <section id="services" className='min-h-[100svh] scroll-mt-20'>
-        <div data-aos='fade-right' data-aos-delay="200">
-          <Services />
-        </div>
-      </section>
+  
 
       <section id="certificates" className='min-h-[100svh] scroll-mt-28' >
         <div data-aos='fade-left' data-aos-delay="200">
           <Certificates />
+        </div>
+      </section>
+
+      <section id="services" className='min-h-[100svh] scroll-mt-20'>
+        <div data-aos='fade-right' data-aos-delay="200">
+          <Services />
         </div>
       </section>
 
