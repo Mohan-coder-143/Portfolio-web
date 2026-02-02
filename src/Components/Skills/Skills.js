@@ -22,37 +22,37 @@ const Skills = () => {
           </div>
           
           <div className='logo-2 flex flex-col items-center'>
-          <img src={css} alt='css-logo' className='w-32 h-32 md:w-32 h-32 object-contain'></img>
+          <img src={css} alt='css-logo' className='w-32 h-32 md:w-32 object-contain'></img>
           <p className='mt-5 text-white font-bold text-xl'>CSS</p>
           </div>
 
           <div className='logo-3 flex flex-col items-center'>
-            <img src={btstrap} alt='bootsrap-logo' className='w-32 h-32 md:w-32 h-32 object-contain' ></img>
+            <img src={btstrap} alt='bootsrap-logo' className='w-32 md:w-32 h-32 object-contain' ></img>
             <p className='mt-5 text-white font-bold text-xl'>BootStrap</p>
           </div>
 
           <div className='logo-4 flex flex-col items-center'>
-            <img src={tail} alt='tailwind-logo' className='w-32 h-32 md:w-32 h-32 object-contain'></img>
+            <img src={tail} alt='tailwind-logo' className='w-32 md:w-32 h-32 object-contain'></img>
             <p className='mt-5 text-white font-bold text-xl'>Tailwind</p>
           </div>
 
           <div className='logo-5 flex flex-col items-center md:mt-5'>
-            <img src={js} alt='javascript-logo' className='w-32 h-32 md:w-32 h-32 object-contain'></img>
+            <img src={js} alt='javascript-logo' className='w-32 md:w-32 h-32 object-contain'></img>
             <p className='mt-5 text-white font-bold text-xl'>Javascript</p>
           </div>
 
           <div className='logo-6 flex flex-col items-center md:mt-5'>
-            <img src={react} alt='react-logo' className='w-32 h-32 md:w-32 h-32 object-contain'></img>
+            <img src={react} alt='react-logo' className='w-32 md:w-32 h-32 object-contain'></img>
             <p className='mt-5 text-white font-bold text-xl'>React</p>
           </div>
 
           <div className='logo-7 flex flex-col items-center md:mt-5'>
-            <img src={psd} alt='psd-logo' className='w-32 h-32 md:w-32 h-32 object-contain'></img>
+            <img src={psd} alt='psd-logo' className='w-32 md:w-32 h-32 object-contain'></img>
             <p className='mt-5 text-white font-bold text-xl'>PhotoShop</p>
           </div>
 
           <div className='logo-8 flex flex-col items-center md:mt-5'>
-            <img src={indesign} alt='indesign-logo' className='w-32 h-32 md:w-32 h-32 object-contain'></img>
+            <img src={indesign} alt='indesign-logo' className='w-32 md:w-32 h-32 object-contain'></img>
             <p className='mt-5 text-white font-bold text-xl'>Indesign</p>
           </div>
           

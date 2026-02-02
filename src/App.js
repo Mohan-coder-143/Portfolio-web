@@ -34,7 +34,7 @@ function App() {
       </div>        
       </section>
 
-      <section id="about" className='flex flex-col items-center w-full min-h-screen px-4 md:px-20 scroll-mt-28' >
+      <section id="about" className='flex flex-col items-center w-full min-h-screen px-4 md:px-20 scroll-mt-24' >
         <div data-aos='fade-right' data-aos-delay="200">
         <About />  
         </div>
@@ -52,15 +52,16 @@ function App() {
         </div>
       </section>
 
-      <section id="certificates" className='min-h-[100svh] scroll-mt-28' >
-        <div data-aos='fade-left' data-aos-delay="200">
-          <Certificates />
+    
+      <section id="services" className='min-h-[100svh] scroll-mt-20'>
+        <div data-aos='fade-right' data-aos-delay="200">
+          <Services />
         </div>
       </section>
 
-      <section id="services" className='min-h-[100svh] scroll-mt-28'>
-        <div data-aos='fade-right' data-aos-delay="200">
-          <Services />
+      <section id="certificates" className='min-h-[100svh] scroll-mt-28' >
+        <div data-aos='fade-left' data-aos-delay="200">
+          <Certificates />
         </div>
       </section>
 
