@@ -64,7 +64,8 @@ const Projects = () => {
               Weather app fetching real-time data from public API
             </p>
             <a 
-              href='https://weather-app-f90c0.web.app/' 
+              href='https://weather-app-f90c0.web.app/' target="_blank"
+              rel="noopener noreferrer"
               className='text-white text-3xl mt-4 hover:text-blue-500 transition-colors'
               onClick={(e) => e.stopPropagation()}
             >
