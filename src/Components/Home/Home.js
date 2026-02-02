@@ -35,7 +35,7 @@ const Home = () => {
         <MdMailOutline /></a>
       </div>
       <div>
-        <a href='/resume.pdf' download className='flex items-center justify-center gap-2 mt-6 gap-2 bg-blue-500 px-5 py-2 rounded-lg w-fit mx-auto md:mx-0' 
+        <a href='/resume.pdf' download className='flex items-center justify-center gap-2 mt-6 bg-blue-500 px-5 py-2 rounded-lg w-fit mx-auto md:mx-0' 
         id='res-btn'>Download Resume <FaDownload /></a>
       </div>
       </div>
