@@ -23,7 +23,7 @@ const Home = () => {
         <p className='text-white mt-3 text-lg'>I build responsive and user-friendly interfaces using React, Tailwind CSS, and modern JavaScript.</p>
 
         {/* Social Icons */}
-        <div className='logo-btn mt-4'>
+        <div className='logo-btn mt-4 gap-5'>
           <a href='https://www.linkedin.com/in/mohan-raj-745563391/' target="_blank" rel="noreferrer"><CiLinkedin /></a>
           <a href='https://github.com/Mohan-coder-143' target="_blank" rel="noreferrer"><FaGithub /></a>
           <a href='mailto:mohanraj28110@gmail.com'><MdMailOutline /></a>
