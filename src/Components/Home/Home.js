@@ -8,7 +8,7 @@ import profile from '../../Assets/profile.jpeg';
 
 const Home = () => {
   return (
-    <section className='min-h-screen flex flex-col md:flex-row px-12 md:px-12'>
+    <section className='flex flex-col md:flex-row items-center px-6 md:px-12 gap-10'>
 
        {/*profile img*/}
       <div className='profile-img w-full md:w-1/2 flex justify-center order-1 md:order-2 mb-6'>
@@ -17,8 +17,8 @@ const Home = () => {
       </div>
       
       {/*text content*/}
-       <div className='head-left px-4 md:px-0 mt-6 md:mt-10 flex flex-col items-center
-        font-manrope text-center md:text-left w-full md:w-1/2 order-2 md:order-1'>
+       <div className='head-left px-4 md:px-0 flex flex-col items-start text-left
+        font-manrope md:text-left w-full md:w-1/2 order-2 md:order-1'>
       <span className='text-3xl md:text-4xl text-white'>👋 Hello, I am</span><br></br>
       <span className='text-5xl md:text-6xl text-white'>Mohan Raj S</span><br></br>
       <span className='text-5xl md:text-6xl text-white'>I'm a <span className='heead'>Frontend <br></br>Developer</span></span>

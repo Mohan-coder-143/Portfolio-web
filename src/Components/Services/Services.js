@@ -4,11 +4,11 @@ import { SiAdobeindesign } from "react-icons/si";
 
 const Services = () => {
   return (
-    <section className='flex flex-col pt-24 md:pt-32'>
+    <section className='flex flex-col pt-20 md:pt-32'>
       <h1 className='text-3xl md:text-5xl text-center text-white mb-12'>My <span>Services</span></h1>
 
       {/* Services Cards Container */}
-      <div className='flex flex-col md:flex-row justify-center gap-8 px-4 md:px-20 mt-12'>
+      <div className='flex flex-col md:flex-row justify-center gap-8 px-4 md:px-20 mt-5'>
         
         {/* Card 1 */}
         <div className='bg-[#0C2C55] p-6 rounded-2xl 

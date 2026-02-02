@@ -28,7 +28,7 @@ function App() {
     <>
     <div><Navbar/></div>
     
-    <section id="home" className='min-h-screen scroll-mt-28'>
+    <section id="home" className='min-h-screen scroll-mt-28 pt-28'>
       <div data-aos='fade-left' >
         <Home />
       </div>        
