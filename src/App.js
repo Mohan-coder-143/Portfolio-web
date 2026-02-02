@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-    <div><Navbar/></div>
+    <div className='overflow-x-hidden w-full'><Navbar/></div>
     
     <section id="home" className='min-h-screen scroll-mt-28 pt-28'>
       <div data-aos='fade-left' >
